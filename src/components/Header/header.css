@@ -1,0 +1,23 @@
+.header-class {
+  margin-left: 20vw;
+  margin-right: 5vw;
+  width: 75vw;
+  display: block;
+  height: 60px;
+}
+
+.header-left {
+  float: left;
+  padding: 20px;
+}
+.header-right {
+  float: right;
+  /* margin-right: -5%; */
+  padding-right: 0%;
+  padding-top: 25px;
+}
+
+.header-right select {
+  border: none;
+  padding: 0;
+}

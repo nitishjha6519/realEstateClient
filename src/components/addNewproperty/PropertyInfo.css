@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.NewpropertyForms {
+  margin-right: 10px;
+  margin-left: 20vw;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2em;
+  padding: 25px;
+  background-color: white;
+}
+
+.left-column {
+  grid-column: 1;
+}
+
+.right-column {
+  grid-column: 2;
+}
+.blockLabel {
+  width: 100%;
+  margin-top: 15px;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #7d7d7d;
+}
+
+.NewPropertyInput {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #c3c3c3;
+  border-radius: 8px;
+  height: 2em;
+  color: #7d7d7d;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #c3c3c3;
+  border-radius: 8px;
+  height: 3em;
+  color: #7d7d7d;
+}
+option {
+  color: #7d7d7d;
+}
+
+@media (max-width: 865px) {
+  .blockLabel {
+    width: 100%;
+    margin-top: 15px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #7d7d7d;
+  }
+
+  .NewpropertyForms {
+    margin: 20px auto 0;
+    width: 80vw;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2em;
+    padding: 25px;
+    margin-bottom: 0;
+    width: 80%;
+  }
+}

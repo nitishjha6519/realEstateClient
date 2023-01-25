@@ -1,0 +1,18 @@
+.tableContainer {
+  margin-left: 20vw;
+  margin-right: 5vw;
+  margin-top: 3vw;
+  width: 75vw;
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+thead {
+  background-color: rgb(223, 225, 227);
+}
+@media (max-width: 865px) {
+  .tableContainer {
+    margin: 3vw auto;
+    width: 95vw;
+  }
+}
